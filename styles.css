@@ -2,6 +2,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* Centers image*/
 img {
     height: auto;
     display: block;
@@ -14,11 +15,13 @@ a {
     background-color: lavender;
 }
 
+/*Removes space between bullet point and text*/
 span {
     position: relative;
     left: -10px;
   }
 
+/*Centers list markers*/
 ol, ul {
     list-style-position: inside;
 }
