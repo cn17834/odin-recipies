@@ -2,6 +2,10 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+html {
+    background-color: rgb(52, 147, 144)
+}
+
 /* Centers image*/
 img {
     height: auto;
@@ -11,9 +15,6 @@ img {
     width: 50%;
 }
 
-a {
-    background-color: lavender;
-}
 
 /*Removes space between bullet point and text*/
 span {
@@ -31,16 +32,23 @@ h1, h2, p, li {
 }
 
 .index {
-    color: green;
+    color: rgb(30, 17, 210);
+    font-weight: 100;
+    width: 200px;
+    margin: 16px auto;
+    margin-bottom: 30px;
+    background-color: #f88a9c;
 }
 
+
 .sushi {
-    color: #ffc0cb;
+    color: #f88a9c;
 }
 
 .potato, .chicken {
     color: orange;
 }
+
 
 
 
