@@ -31,6 +31,31 @@ h1, h2, p, li {
     text-align: center;
 }
 
+/*Add background color to text and lists*/
+
+ul.chicken, ol.chicken, p.chicken {
+    background-color: rgb(143, 223, 223);
+    color: black;
+    width:1000px;
+    margin: 0 auto;
+}
+
+ul.potato, ol.potato, p.potato {
+    background-color: rgb(44, 65, 113);
+    color: black;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+ul.sushi, ol.sushi, p.sushi {
+    background-color: rgb(47, 144, 123);
+    color: black;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+
 .index {
     color: rgb(30, 17, 210);
     font-weight: 100;
@@ -38,6 +63,12 @@ h1, h2, p, li {
     margin: 16px auto;
     margin-bottom: 30px;
     background-color: #f88a9c;
+}
+
+.recipes {
+    background-color: lightblue;
+    width: 200px;
+    margin: 0 auto;
 }
 
 
@@ -48,6 +79,7 @@ h1, h2, p, li {
 .potato, .chicken {
     color: orange;
 }
+
 
 
 
